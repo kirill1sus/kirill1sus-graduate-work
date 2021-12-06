@@ -30,24 +30,24 @@ namespace Showing
         private static IPEndPoint showingEndPoint;
         private static UdpClient udpClient = new UdpClient();
 
-        public static byte[] StringToByteArray(string hex, int ind)
-        {
-            hex = hex.Remove(0, 2);
-            return Enumerable.Range(0, hex.Length)
-        .Where(x => x % 2 == 0)
-        .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
-        .ToArray();
-        }
+        //public static byte[] StringToByteArray(string hex, int ind)
+        //{
+        //    hex = hex.Remove(0, 2);
+        //    return Enumerable.Range(0, hex.Length)
+        //.Where(x => x % 2 == 0)
+        //.Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
+        //.ToArray();
+        //}
 
-        public static byte StringToByteArray(string hex)
-        {
-            hex = hex.Remove(0, 2);
-            byte[] tmp = Enumerable.Range(0, hex.Length)
-            .Where(x => x % 2 == 0)
-            .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
-            .ToArray();
-            return tmp[1];
-        }
+        //public static byte StringToByteArray(string hex)
+        //{
+        //    hex = hex.Remove(0, 2);
+        //    byte[] tmp = Enumerable.Range(0, hex.Length)
+        //    .Where(x => x % 2 == 0)
+        //    .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
+        //    .ToArray();
+        //    return tmp[1];
+        //}
 
         static void Main(string[] args)
         {
@@ -70,7 +70,7 @@ namespace Showing
         {
             string configStringKey = ConfigurationManager.AppSettings.Get("vernum");
 
-            byte secretKey = StringToByteArray(configStringKey);
+            //byte secretKey = StringToByteArray(configStringKey);
 
             var bmp = new Bitmap(eventArgs.Frame, 800, 600);
             try
@@ -82,7 +82,7 @@ namespace Showing
                     //
                     for (int i = 0; i < bytes.Length; i++)
                     {
-                        bytes[i] = (byte)(bytes[i] ^ secretKey);
+                        bytes[i] = (byte)(bytes[i]);
                     }
                     //
                     udpClient.Send(bytes, bytes.Length, showingEndPoint);

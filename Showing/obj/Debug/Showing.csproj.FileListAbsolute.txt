@@ -18,3 +18,17 @@ C:\Users\User\Desktop\Диплом\CryptoStream\Webcam\Showing\obj\Debug\Showing
 C:\Users\User\Desktop\Диплом\CryptoStream\Webcam\Showing\obj\Debug\Showing.csproj.CopyComplete
 C:\Users\User\Desktop\Диплом\CryptoStream\Webcam\Showing\obj\Debug\Showing.exe
 C:\Users\User\Desktop\Диплом\CryptoStream\Webcam\Showing\obj\Debug\Showing.pdb
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\Showing.exe.config
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\Showing.exe
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\Showing.pdb
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.dll
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.Video.dll
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.xml
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.Video.xml
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\obj\Debug\Showing.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\obj\Debug\Showing.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\obj\Debug\Showing.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\obj\Debug\Showing.exe
+C:\Users\User\Documents\GitHub\kirill1sus-graduate-work\Showing\obj\Debug\Showing.pdb
